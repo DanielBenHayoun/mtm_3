@@ -1,6 +1,4 @@
-//
-// Created by Dina on 16-Dec-17.
-//
+
 #include "../Headers/FriendRequest.h"
 #include "../Headers/set.h"
 #include <stdlib.h>

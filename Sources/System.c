@@ -1,5 +1,5 @@
 
-#include "mtm_ex3.h"
+#include "../Headers/mtm_ex3.h"
 #include "../Headers/cmdHandler.h"
 
 int CourseManagerSystem(int argc, char **argv) {

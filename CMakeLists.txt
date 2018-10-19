@@ -36,18 +36,17 @@ add_executable(student_test
 
 
 
-#add_executable(course_test
-#        ${TESTS}/course_test.c
-#        ${SOURCES}/Grade.c
-#        ${SOURCES}/Course.c
-#        )
+add_executable(course_test
+        ${TESTS}/course_test.c
+        ${SOURCES}/Grade.c
+        ${SOURCES}/Course.c
+        )
 
 
-#add_executable(list_test
-#        ready/list_mtm1_test.c
-#        ready/list_mtm1.c
-#        )
-
+add_executable(list_test
+        Tests/list_mtm_test.c
+        Sources/list_mtm.c
+        )
 #add_executable(cmd_handler_test
 #       Tests/cmdHandlerTest.c
 #        ready/cmd_api1.c
@@ -66,8 +65,8 @@ add_executable(student_test
 
 link_directories(.)
 
-#target_link_libraries(list_test ${MAIN}/libmtm/win64/libmtm.a)
+target_link_libraries(list_test ${MAIN}/libmtm/win64/libmtm.a)
 #target_link_libraries(cmd_handler_test ${MAIN}/libmtm/win64/libmtm.a)
 target_link_libraries(coursemanager_test ${MAIN}/libmtm/win64/libmtm.a)
 target_link_libraries(student_test ${MAIN}/libmtm/win64/libmtm.a)
-#target_link_libraries(course_test ${MAIN}/libmtm/win64/libmtm.a)
+target_link_libraries(course_test ${MAIN}/libmtm/win64/libmtm.a)

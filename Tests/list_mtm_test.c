@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
-#include "test_utilities.h"
-#include "../list_mtm/list_mtm.h"
+#include "../Headers/test_utilities.h"
+#include "../Headers/list_mtm.h"
 
 
 

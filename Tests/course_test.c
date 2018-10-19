@@ -1,6 +1,6 @@
 
 
-#include "../Course.h"
+#include "../Headers/Course.h"
 #include "../Headers/test_utilities.h"
 #include <stdio.h>
 #include <stdlib.h>

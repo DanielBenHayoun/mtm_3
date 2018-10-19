@@ -1,11 +1,3 @@
-//
-// Created by daniel on 12/18/2017.
-//
-/*
- * MAKE VALGRIND TEST
- *
- *
- */
 #include <stdio.h>
 #include "../Headers/set.h"
 #include "../Headers/list.h"

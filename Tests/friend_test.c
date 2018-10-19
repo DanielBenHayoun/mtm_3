@@ -1,7 +1,3 @@
-//
-// Created by daniel on 1/8/2018.
-//
-
 #include "../Headers/Friend.h"
 #include "../Headers/test_utilities.h"
 #include <string.h>

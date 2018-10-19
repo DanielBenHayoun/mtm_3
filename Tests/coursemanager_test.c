@@ -1,6 +1,4 @@
 
-// Created by Dina on 17-Dec-17.
-//
 #include "../Headers/Grade.h"
 #include "../Headers/FriendRequest.h"
 #include "../Headers/Friend.h"
