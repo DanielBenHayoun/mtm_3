@@ -1,4 +1,4 @@
-
+#include "../Headers/test_utilities.h"
 #include "../Headers/Grade.h"
 #include "../Headers/FriendRequest.h"
 #include "../Headers/Friend.h"
@@ -10,24 +10,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define ASSERT_TEST(b) do { \
-        if (!(b)) { \
-                printf("\nAssertion failed"); \
-                return false; \
-        } \
-} while (0)
-
-/**
- * Macro used for running a test from the main function
- */
-#define RUN_TEST(test) do { \
-        printf("Running "#test"... "); \
-        if (test()) { \
-            printf("[OK]\n");\
-        } else { \
-        	printf("[Failed]\n"); \
-        } \
-} while(0)
 
 
 

@@ -47,26 +47,22 @@ add_executable(list_test
         Tests/list_mtm_test.c
         Sources/list_mtm.c
         )
-#add_executable(cmd_handler_test
-#       Tests/cmdHandlerTest.c
-#        ready/cmd_api1.c
-#        ready/cmdHandler.c
-#        ${SOURCES}/Student.c
-#        ${SOURCES}/CourseManager.c
-#        ${SOURCES}/Friend.c
-#        ${SOURCES}/Grade.c
-#        ${SOURCES}/Course.c
-#        ${SOURCES}/FriendRequest.c
-#        ${HEADERS}/CourseManager.h
-#        ${HEADERS}/Friend.h
-#        ${HEADERS}/Grade.h
-#        ${HEADERS}/FriendRequest.h
-#        ${HEADERS}/)
+add_executable(cmd_handler_test
+        Tests/cmd_handler_test.c
+        Sources/cmdHandler.c
+        Sources/cmd_api.c
+        ${SOURCES}/Student.c
+        ${SOURCES}/CourseManager.c
+        ${SOURCES}/Friend.c
+        ${SOURCES}/Grade.c
+        ${SOURCES}/Course.c
+        ${SOURCES}/FriendRequest.c
+        )
 
 link_directories(.)
 
 target_link_libraries(list_test ${MAIN}/libmtm/win64/libmtm.a)
-#target_link_libraries(cmd_handler_test ${MAIN}/libmtm/win64/libmtm.a)
+target_link_libraries(cmd_handler_test ${MAIN}/libmtm/win64/libmtm.a)
 target_link_libraries(coursemanager_test ${MAIN}/libmtm/win64/libmtm.a)
 target_link_libraries(student_test ${MAIN}/libmtm/win64/libmtm.a)
 target_link_libraries(course_test ${MAIN}/libmtm/win64/libmtm.a)
