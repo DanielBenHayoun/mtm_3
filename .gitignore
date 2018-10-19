@@ -2,3 +2,9 @@
 \
 
 cmake-build-debug/
+
+Sources/TinyProgram\.c
+
+libmtm\.a
+
+test
